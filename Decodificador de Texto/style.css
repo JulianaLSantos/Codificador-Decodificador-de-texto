@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #E5E5E5;
+    color: #131212;
+    font-family: "Source Code Pro", monospace;
+
+}
+
+main {
+    flex-grow: 1; /* Faz com que o main ocupe o espaço disponível */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.apresentacao {
+    width: 80%;
+    background-color: #e9e3e3;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.apresentacao__texto {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.resultado__output {
+    display: flex;
+    color:#131212;
+    font-size: 48px;
+}
+
+
+.botoes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.botao__texto {
+    width: 100%;
+    max-width: 600px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.imagem {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.resultado {
+    font-size: 48px;
+    font-weight: bold;
+    color: darkblue;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+    gap: 30px;
+}
+
+.resultado__output {
+    margin-top: 20px;
+    border: none;
+    font-size: 24px;
+}
+
+.botao__botoes {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px 20px;
+    background-color: #1a1b66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.botao__botoes:hover{
+    background-color:aqua;
+}
+
+
+
+
+.rodape {
+    width: 100%;
+    background-color: #1a1b66;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: auto; /* Faz com que o rodapé fique no final da página */
+    font-family: 'Times New Roman', Times, serif;
+}
